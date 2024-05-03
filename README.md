@@ -8,3 +8,4 @@
 
 ### Languages
 - Python 3
+- MySQL

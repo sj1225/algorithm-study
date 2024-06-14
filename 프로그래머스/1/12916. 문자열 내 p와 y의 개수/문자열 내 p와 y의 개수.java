@@ -7,9 +7,7 @@ class Solution {
         long p = s.chars().filter(c -> c == 'p').count();
         long y = s.chars().filter(c -> c == 'y').count();
         
-        if((p==0)&&(y==0)){
-            answer = true;
-        }else if(p==y){
+        if(p == y){
             answer = true;
         }
         

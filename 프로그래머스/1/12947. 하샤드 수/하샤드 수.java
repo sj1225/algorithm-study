@@ -5,10 +5,6 @@ class Solution {
             sum += Integer.parseInt(i);
         }
         
-        if(x % sum == 0){
-            return true;
-        }
-        
-        return false;
+        return x % sum == 0;
     }
 }

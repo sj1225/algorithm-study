@@ -5,14 +5,8 @@ class Solution {
         boolean isUpper = true;
         
         for(String a : arr){
-            if(a.trim().length() == 0) {
-                answer += a;
-                isUpper = true;
-                continue;
-            }
-            
             answer += isUpper ? a.toUpperCase() : a;
-            isUpper = false;
+            isUpper = (a.trim().length() == 0) ? true : false;
         }
         
         return answer;

@@ -4,7 +4,6 @@ class Solution {
         boolean odds = true;
         
         for(int i=0;i<s.length();i++){
-            // 공백인 경우 
             if(s.charAt(i) == ' '){
                 odds = true;
                 answer += ' ';
